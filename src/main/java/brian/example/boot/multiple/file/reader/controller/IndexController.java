@@ -44,7 +44,7 @@ public class IndexController {
     
     
     @GetMapping("/test")
-    public String getIndex(){
+    public String getTest(){
         return "Test";
     }
 }
