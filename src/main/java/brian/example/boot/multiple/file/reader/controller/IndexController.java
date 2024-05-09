@@ -72,4 +72,10 @@ public class IndexController {
 
         return builder.toString();
     }
+    
+    
+    @GetMapping("/test")
+    public String getTest(){
+        return "Test";
+    }
 }
